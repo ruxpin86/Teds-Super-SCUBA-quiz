@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <title>Ted's SCUBA Quiz</title>
+</head>
+
+<body onload="printScores()">
+    <header class="title">
+        <h1 class="quiz-title">Ted's Most Excellent SCUBA Quiz!</h1><br><br>
+        <section class="">
+            <h2 id="high-score" class="high-score">High Scores!</h2>
+            <ul id="userScores"></u>
+        </section>
+    </header>
+    <main class="container">
+        <section>
+            <button id="start-button" class="start-btn">CLICK TO START</button>
+        </section>
+        <div>
+            <h2 id="timer">Time Remaining:</h2>
+        </div>
+        <section class="question-container">
+            <h3 id="question">Question Here</h3><br>
+            <div id="answer-btns" class="button-grid">
+                <!-- <button id="a1" class="a-btn">Answer1</button>
+                <button id="a2" class="a-btn">Answer2</button>
+                <button id="a3" class="a-btn">Answer3</button>
+                <button id="a4" class="a-btn">Answer4</button> -->
+            </div><br><br>
+        </section>
+
+    </main>
+    <Script src="./assets/script.js"></Script>
+</body>
+
+</html>
