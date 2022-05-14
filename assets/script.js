@@ -139,7 +139,7 @@ function saveScore() {
     printScores() //call printScores function
 }
 
-//have those beautiful score display on the page
+//have those beautiful scores display on the page
 function printScores() {
     var scores = JSON.parse(localStorage.getItem("QUIZ_SCORES") || "[]")
     var string = ""
